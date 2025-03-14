@@ -13,3 +13,5 @@ google-auth-httplib2
 oauthlib
 requests
 pickle-mixin
+pdf2image
+poppler-utils
