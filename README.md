@@ -59,6 +59,8 @@ bash
 
 │── 📜 styles.css             # CSS for UI design
 
+│── 📜 packages.txt
+
 │── 📜 README.md              # Project documentation
 
 
