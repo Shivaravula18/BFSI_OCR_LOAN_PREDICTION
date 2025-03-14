@@ -1,0 +1,15 @@
+streamlit
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+pytesseract
+pdfplumber
+scikit-learn
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+oauthlib
+requests
+pickle-mixin
