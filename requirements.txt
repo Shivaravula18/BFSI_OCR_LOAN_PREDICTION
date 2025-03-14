@@ -17,3 +17,4 @@ pdf2image
 poppler-utils
 python-docx
 googletrans==4.0.0-rc1
+opencv-python-headless
