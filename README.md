@@ -11,6 +11,8 @@ An advanced OCR-based loan prediction system for the BFSI sector, integrating te
 ✅ CSV Clustering (Unstructured Data): Clusters numeric data and provides visual insights.
 ✅ Google OAuth Login: Users can securely log in using Google authentication.
 
+
+
 🔹 Installation
 1️⃣ Clone the Repository
 bash
@@ -28,22 +30,36 @@ bash
 Copy
 Edit
 streamlit run app.py
+
+
 🔹 File Structure
 bash
 Copy
 Edit
 📂 BFSI_OCR_LOAN_PREDICTION/
 │── 📜 app.py                # Main Streamlit app
+
 │── 📂 scripts/               # All backend processing scripts
+
 │    ├── ocr_preprocess.py    # OCR text extraction
+
 │    ├── multi_lang_ocr.py    # Multi-language OCR
+
 │    ├── expenditure_analysis.py # Bank Statement Analysis
+
 │    ├── document_processing.py  # Structured & Unstructured Document Handling
+
 │    ├── loan_processing.py   # Loan eligibility prediction
+
 │    ├── stock_market_analyzer.py # Stock Market Analysis
+
 │── 📜 requirements.txt       # Project dependencies
+
 │── 📜 styles.css             # CSS for UI design
+
 │── 📜 README.md              # Project documentation
+
+
 🔹 Technologies Used
 Python 🐍
 Streamlit 🌐
