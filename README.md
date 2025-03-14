@@ -16,26 +16,21 @@ An advanced OCR-based loan prediction system for the BFSI sector, integrating te
 🔹 Installation
 1️⃣ Clone the Repository
 bash
-Copy
-Edit
 git clone https://github.com/Shivaravula18/BFSI_OCR_LOAN_PREDICTION.git
 cd BFSI_OCR_LOAN_PREDICTION
+
 2️⃣ Install Dependencies
 bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3️⃣ Run the Application
 bash
-Copy
-Edit
 streamlit run app.py
 
 
 🔹 File Structure
 bash
-Copy
-Edit
+
 📂 BFSI_OCR_LOAN_PREDICTION/
 │── 📜 app.py                # Main Streamlit app
 
