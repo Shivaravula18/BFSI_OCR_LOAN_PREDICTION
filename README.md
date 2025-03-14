@@ -3,12 +3,19 @@ An advanced OCR-based loan prediction system for the BFSI sector, integrating te
 
 🔹 Features
 ✅ OCR Extraction: Extracts text from images, PDFs, and documents using the best OCR techniques.
+
 ✅ Multi-Language OCR: Detects & translates text dynamically from any global or Indian language to English.
+
 ✅ Bank Statement Analysis: Reads bank statements, categorizes expenses, and provides visual insights.
+
 ✅ Loan Prediction System: Uses financial data & AI to determine loan eligibility & suggest best options.
+
 ✅ Stock Market Analysis: Compares two stocks dynamically using live financial data.
+
 ✅ Invoice Processing: Extracts CGST, SGST, Total Tax & Final Amount from invoices.
+
 ✅ CSV Clustering (Unstructured Data): Clusters numeric data and provides visual insights.
+
 ✅ Google OAuth Login: Users can securely log in using Google authentication.
 
 
