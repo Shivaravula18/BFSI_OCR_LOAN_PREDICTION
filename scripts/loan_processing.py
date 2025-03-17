@@ -44,9 +44,9 @@ def calculate_loan_amount(marks_10th, marks_12th, cgpa, total_assets, fixed_depo
         base_amount += 4
 
     # Financial Strength Boost
-    if total_assets > 2000000:
+    if total_assets > 100000:
         base_amount += 0.45*total_assets
-    if fixed_deposits > 1000000:
+    if fixed_deposits > 100000:
         base_amount += 0.45*fixed_deposits
 
     return min(base_amount, 100)  # Max cap at 100 lakh (1 crore)
