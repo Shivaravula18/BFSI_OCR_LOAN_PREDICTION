@@ -44,7 +44,7 @@ def calculate_loan_amount(marks_10th, marks_12th, cgpa, total_assets, fixed_depo
         base_amount += 4
 
     # Financial Strength Boost
-     if total_assets > 2000000:
+    if total_assets > 2000000:
         base_amount += 10
     if fixed_deposits > 1000000:
         base_amount += 5
