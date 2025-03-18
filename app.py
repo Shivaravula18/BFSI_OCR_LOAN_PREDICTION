@@ -54,7 +54,7 @@ if choice == "OCR Extraction":
             st.write(clustered_df)
 
     else:
-        uploaded_file = st.file_uploader("📂 Upload Document (Image/PDF)", type=["pdf"])
+        uploaded_file = st.file_uploader("📂 Upload Document (Image/PDF)", type=["pdf","png", "jpg", "jpeg"])
 
         if uploaded_file is not None:
             if doc_type == "Bank Statements":
