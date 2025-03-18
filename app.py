@@ -54,11 +54,7 @@ if choice == "OCR Extraction":
             st.write(clustered_df)
 
     else:
-        # ✅ Restrict structured document uploads to PDF only
-        if doc_category == "Structured":
-            uploaded_file = st.file_uploader("📂 Upload Document (PDF only)", type=["pdf"])  
-        else:
-            uploaded_file = st.file_uploader("📂 Upload Document (Image/PDF)", type=["pdf", "png", "jpg", "jpeg"])
+        uploaded_file = st.file_uploader("📂 Upload Document (Image/PDF)", type=["pdf","png", "jpg", "jpeg"])
 
         if uploaded_file is not None:
             if doc_type == "Bank Statements":
