@@ -53,17 +53,11 @@ if choice == "OCR Extraction":
             st.subheader("📊 Data After Clustering")
             st.write(clustered_df)
 
-    else:
-        uploaded_file = st.file_uploader("📂 Upload Document (Image/PDF)", type=["pdf","png", "jpg", "jpeg"])
+    elif doc_category == "Structured":
+        uploaded_file = st.file_uploader("📂 Upload Document (PDF only)", type=["pdf"])  # ✅ Restrict to PDF only
 
         if uploaded_file is not None:
-            if doc_type == "Bank Statements":
-                csv_path = convert_pdf_to_csv(uploaded_file)  # ✅ Convert PDF to CSV
-                df = pd.read_csv(csv_path)  # ✅ Read converted CSV
-                analyze_bank_statement(df)  # ✅ Perform Expenditure Analysis
-
-            elif doc_category == "Structured":
-                process_structured_document(uploaded_file, doc_type)
+            process_structured_document(uploaded_file, doc_type)
 
 # ✅ Multi-Language OCR
 elif choice == "Multi-Language OCR":
