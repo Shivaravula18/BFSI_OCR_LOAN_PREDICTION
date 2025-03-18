@@ -1,3 +1,4 @@
+DEPLOYMENT web app deployed link:https://shivaravula18-bfsi-ocr-loan-prediction-app-dyfjak.streamlit.app/
 BFSI OCR Loan Prediction System 🚀
 An advanced OCR-based loan prediction system for the BFSI sector, integrating text extraction, multi-language OCR, document analysis, financial data processing, and loan eligibility prediction.
 
